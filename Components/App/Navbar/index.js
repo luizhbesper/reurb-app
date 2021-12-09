@@ -1,15 +1,30 @@
 import React from 'react'
 import Container, { Navigation } from './style'
 import {MdDashboard, MdAdd, MdAssignment, MdPeople, MdExitToApp, MdSettingsApplications} from 'react-icons/md';
+import Link from 'next/link'
 
 export default function Navbar() {
     return (
         <Container>
-            <div className = "logo">ReurbHUB</div>
+            <Link href="/">
+                <div className = "logo">
+                    ReurbHUB
+                </div>
+            </Link>
             <Navigation>
                 <div>
-                    <div><MdDashboard /><span>Dashboard</span></div>
-                    <div><MdAdd /><span>Novo Registro</span></div>
+                    <Link href="/">
+                        <div>
+                            <MdDashboard />
+                            <span>Dashboard</span>
+                        </div>
+                    </Link>
+                    <Link href="/registro">
+                        <div>
+                            <MdAdd />
+                            <span>Novo Registro</span>
+                        </div>
+                    </Link>
                     <div><MdPeople /><span>Parecer Social</span></div>
                     <div><MdAssignment /><span>Processos</span></div>
                 </div>

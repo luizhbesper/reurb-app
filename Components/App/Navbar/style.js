@@ -19,6 +19,7 @@ const Container = styled.div`
         align-items: center;
         font-size: 2rem;
         font-weight: bold;
+        cursor: pointer;
     }
 
     .down {
@@ -38,8 +39,8 @@ const Container = styled.div`
         }
         
         &:hover{
-                background-color: rgba(255,255,255,0.2);
-                cursor: pointer;
+            background-color: rgba(255,255,255,0.2);
+            cursor: pointer;
         }
     }
 

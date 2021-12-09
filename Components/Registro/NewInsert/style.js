@@ -1,11 +1,15 @@
 import styled from 'styled-components';
 
 const Container = styled.div`
-    height: 70px;
+    padding: 30px 30px;    
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
 `;
+
+
+
+
 
 export default Container;

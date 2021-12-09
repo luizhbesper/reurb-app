@@ -14,6 +14,8 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-icons": "^4.2.0",
+    "react-select": "^4.3.1",
+    "react-select-v2": "^2.4.2",
     "styled-components": "^5.3.0"
   }
 }
